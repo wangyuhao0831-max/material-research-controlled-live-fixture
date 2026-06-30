@@ -1,0 +1,27 @@
+{
+  "fixtureId": "material-research-controlled-live-fixture-v1",
+  "repository": "material-research-controlled-live-fixture",
+  "description": "Synthetic public fixture for controlled crawler testing of black and white floral ornament references.",
+  "containsOnlySyntheticAssets": true,
+  "forbiddenContent": [
+    "project source",
+    "user images",
+    "api keys",
+    "tokens",
+    "cookies",
+    ".env files",
+    "databases",
+    "internal paths",
+    "HAR",
+    "Trace",
+    "real user data"
+  ],
+  "expectedImages": [
+    "images/black-white-floral-vine-ornament-vector.png",
+    "images/black-floral-scrollwork-silhouette-ornament.jpg",
+    "images/baroque-acanthus-corner-ornament-pattern.png"
+  ],
+  "expectedData": [
+    "data/images.json"
+  ]
+}

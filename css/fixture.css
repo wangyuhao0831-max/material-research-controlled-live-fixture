@@ -1,0 +1,38 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f3;
+  color: #1f2933;
+}
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.fixture-hero {
+  min-height: 280px;
+  background-image: url("../images/baroque-acanthus-corner-ornament-pattern.png");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #d8d6cc;
+}
+
+.fixture-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.fixture-grid img,
+picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
